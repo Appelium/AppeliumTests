@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name             		= 'AppeliumTests'
-	s.version				= '2.8.0'
+	s.version				= '2.8.1'
     s.summary          		= 'UITests companion to be used together with Appelium services. Learn more at https://www.appelium.com'
     s.homepage         		= 'https://www.appelium.com/'
     s.cocoapods_version     = '>= 1.10.0'
