@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '15.0'
     s.tvos.deployment_target = '15.0'
     s.swift_versions        = ['5.6']
-    s.source       			= { :http => "https://github.com/Appelium/AppeliumTests/releases/download/#{s.version}/AppeliumTestsKit.xcframework.zip" }
+    s.source       			= { :http => "https://api.appelium.com/files/public/sdks/AppeliumTestsKit/#{s.version}.zip" }
     s.library      			= 'z'
     s.frameworks   			= 'AVFoundation', 'CoreGraphics', 'SystemConfiguration', 'UIKit', 'CoreVideo', 'XCTest'
     s.xcconfig    			= { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/AppeliumTestsKit/"' }
